@@ -1,4 +1,4 @@
-# Lab 1 - Hello World Extension
+# Lab 1 - Hello World Extension w/ POPUP
 
 This extension covers the installation and structure of a chrome-extension project.
 
