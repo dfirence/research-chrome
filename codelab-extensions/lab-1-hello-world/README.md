@@ -19,3 +19,5 @@ It serves a popup html UI with 'HELLO WORLD' and demonstrates:
 * You have to refresh the extension to see the custom `default_title` value show up as a tooltip
 
 * You can customize the size of the popup by using native CSS `height` and `width` attributes in the structure of the html page: `popoup.html`
+
+* Icons:  When you do not provide an icon to the extension folder, the Chrome Browser auto creates a 16x16 icon for you.
