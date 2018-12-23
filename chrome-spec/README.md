@@ -18,5 +18,5 @@ NOTE:
 |----------|-------------|
 | Chrome Main | https://developer.chrome.com/extensions|
 | Chrome APIs | https://developer.chrome.com/extensions/api_index|
-| Extension Architecture | https://developer.chrome.com/extensions/overview |
+| Extension Architecture |https://developer.chrome.com/extensions/overview#arch|
 
