@@ -41,3 +41,18 @@
     "description": "Greets me daily",
     "default_locale": "en"
 }
+
+// Realworld ACME Manifest with browser_actions and icons
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "My ACME Extension",
+    "author": "jdoe@",
+    "description": "Greets me daily",
+    "default_locale": "en",
+
+    "browser_action": {
+        "default_icon": "icon16.png",
+        "default_popup": "popup.html",
+    }
+}

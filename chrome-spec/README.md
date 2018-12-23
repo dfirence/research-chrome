@@ -33,7 +33,7 @@ based on the specification from Google Chrome.
 
 ## UI - User Interface 
 The UI relies on standard web technologies (i.e., HTML + CSS + JS).
-There are 3 types pages used by Chrome Extensions:
+There are 3 types of pages used by Chrome Extensions:
 
 * BrowserPage:     These use the `chrome.browserAction` api
 
@@ -52,4 +52,5 @@ One example could be, imagine an extension uses a background script to download 
 ## Content Script
 The content script(s) execute on the target webpage that has been loaded in the
 browser.  These are commonly used by extensions when they need to `read/write` data from the loaded webpage.
+
 ***
