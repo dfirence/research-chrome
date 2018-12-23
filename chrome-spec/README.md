@@ -1,5 +1,5 @@
 # Chrome Specification
-This repo section is to document my findings and
+This repo section is to document my knowledge and
 familiarization with the Chrome Architecture, or
 its API documentation provided by Google.
 
