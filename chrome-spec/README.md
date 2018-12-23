@@ -13,8 +13,10 @@ NOTE:
     They do not work or are not for usage.
 ***
 
-# Resources:  References
+# Google Resources:  References for Google Chrome
 | Resource | URL         |
 |----------|-------------|
-| Chrome Main | https://developer.chrome.com/extensions/overview |
+| Chrome Main | https://developer.chrome.com/extensions|
+| Chrome APIs | https://developer.chrome.com/extensions/api_index|
 | Extension Architecture | https://developer.chrome.com/extensions/overview |
+
