@@ -1,4 +1,4 @@
-# Lab 2 - Hello World Extension w/ Badge & BackgroundPage
+# Lab 3 - Hello World Extension w/ Badge & BackgroundPage
 This extension uses the `badge` ui feature of the `browser_action` api. To implement a badge, we will need to register the `background` key in the manifest, and create a `background_script`
 
 
