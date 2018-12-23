@@ -1,23 +1,17 @@
-# Lab 1 - Hello World Extension w/ POPUP
+# Lab 2 - Hello World Extension w/ Icon
+This extension loads a custom icon 16x16 in the Chrome Browser tab
 
-This extension covers the installation and structure of a chrome-extension project.
 
 # Functionality
-It serves a popup html UI with 'HELLO WORLD' and demonstrates:
-* how to use relative imports
-* how to import the CSS
-* how to import the popup.html
-* how to insert hyperlink with target="_blank" and leads to new tab to this repo
+* Custom icon loaded under the manifest.
 ***
+
 # Key Takeaways
-* The manifest file `browser_action` allows for user to click on the extension icon and results in a minified UI built with html + css
+* As long as you have a compliant png and it is of the 16x16 size, you can use as your extension's logo
 
-* The popup behavior when hovering the mouse over the browser extension icon shows the `name` of the extension defined in the `manifest.json` file
+* Use the Linux CLI tool `imagemagick` to resize images as icons for Chrome extensions.
 
-* You can override the `name` in the manifest with a custom string under the `browser_action` key with a subkey labeled as: `default_title`
+* `convert [image.png] -resize 16x16 [outputfile.png]`
 
-* You have to refresh the extension to see the custom `default_title` value show up as a tooltip
-
-* You can customize the size of the popup by using native CSS `height` and `width` attributes in the structure of the html page: `popoup.html`
-
-* Icons:  When you do not provide an icon to the extension folder, the Chrome Browser auto creates a 16x16 icon for you.
+* Download and install the utility from here
+https://www.imagemagick.org/script/index.php
