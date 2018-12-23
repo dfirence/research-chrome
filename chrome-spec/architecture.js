@@ -27,7 +27,7 @@
         "author"            :   // My Name
         "description"       :   // My Extension's description here
         "default_locale"    :   // My localized language - e.g., 'en'
-        "icons"             :   // My Customer icons - 16x16, 48x48,. 128x128
+        "icons"             :   // My Custom icons - 16x16, 48x48,. 128x128
 
     }
 */
