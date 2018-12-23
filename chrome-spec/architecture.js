@@ -33,6 +33,7 @@
 */
 
 // Realworld ACME Manifest without browser_actions or page_actions
+/**
 {
     "manifest_version": 2,
     "version": "1.0",
@@ -56,3 +57,4 @@
         "default_popup": "popup.html",
     }
 }
+**/
