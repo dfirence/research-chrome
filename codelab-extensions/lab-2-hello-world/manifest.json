@@ -9,6 +9,7 @@
     },
     "browser_action": {
         "default_popup": "html/popup.html",
-        "default_title": "Lab-2 Hello World"
+        "default_title": "Lab-2 Hello World",
+        "default_icon": "icons/icon16.png"
     }
 }
