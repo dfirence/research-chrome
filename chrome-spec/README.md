@@ -12,3 +12,9 @@ NOTE:
     These scripts are just for visual purpose
     They do not work or are not for usage.
 ***
+
+# Resources:  References
+| Resource | URL         |
+|----------|-------------|
+| Chrome Main | https://developer.chrome.com/extensions/overview |
+| Extension Architecture | https://developer.chrome.com/extensions/overview |
