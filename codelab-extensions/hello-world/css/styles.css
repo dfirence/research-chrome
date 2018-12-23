@@ -1,0 +1,16 @@
+body {
+    background-color: whitesmoke;
+}
+
+.cnt_content {
+    width: 200px;
+    height: 150px;
+}
+
+#hello {
+    color: green;
+}
+
+#world {
+    color: cadetblue;
+}
