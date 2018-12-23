@@ -5,6 +5,7 @@
     "name": "hello world",
     "description": "hello world - basic",
     "browser_action": {
-        "default_popup": "html/popup.html"
+        "default_popup": "html/popup.html",
+        "default_title": "Custom Title"
     }
 }
