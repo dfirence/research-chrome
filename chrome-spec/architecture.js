@@ -3,5 +3,7 @@
  * 
  * Author   :  dfirence@
  * Usage    :  DO NOT use these in production, these are practical experiments
- * Purpose  :
+ * Purpose  :  Understand specific API syntax & structure
  */
+
+ 
