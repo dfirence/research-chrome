@@ -1,4 +1,4 @@
-# Lab 3 - Hello World Extension w/ TABS API
+# Lab 4 - Hello World Extension w/ TABS API
 This extension uses the Chrome TABS API to demonstrate its usage
 
 
