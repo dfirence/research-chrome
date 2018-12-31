@@ -23,6 +23,7 @@ chrome.tabs.onCreated.addListener(function() {
     queryAndShow();
 });
 
+// Create a listener for when a TAB is closed
 chrome.tabs.onRemoved.addListener(function() {
     queryAndShow();
 });
