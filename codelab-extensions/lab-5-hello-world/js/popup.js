@@ -25,8 +25,6 @@ document.addEventListener('DOMContentLoaded', function() {
     let reset_button = document.getElementById('reset');
 
     reset_button.addEventListener('click', function() {
-        let firstName = document.getElementById('first-name');
-        let lastName = document.getElementById('last-name');
         firstName.value = '';
         lastName.value = '';
         user_output.innerHTML = '';

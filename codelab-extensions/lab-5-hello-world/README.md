@@ -20,7 +20,7 @@ the text input fields. As well as, providing the output to the user under the po
 
 # Key Takeaways
 * You can debug your Chrome Extension more effectively when developing it, by opening a new Chrome Browser TAB,
-  and typing the following in the URL Addresss Bar | chrome-extension://<your_extension_id/your_html_file.html>
+  and typing the following in the URL Addresss Bar | `chrome-extension://<your_extension_id/your_html_file.html>`
 
 * When using `HTML INPUT` tags, the `innerHTML` attribute does not fill the values, instead you should try to use
   the `document.getElementById('input').value = ...`
