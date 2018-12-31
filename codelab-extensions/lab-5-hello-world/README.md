@@ -1,4 +1,4 @@
-# Lab 5 - Hello World Extension w/ Native Javascript Event Listeners
+# Lab 5 - Hello World Extension w/ Native Javascript Click Event Listeners
 This extension demonstrates native web dev features to understand the usage of the architecture of a Chrome Extension.
 For example, we are using a standard javascript file called `popup.js` that is imported by the `popup.html` page.
 The event listeners are taken from native javascript eventhandlers with `.addEventListener()` that interacts
