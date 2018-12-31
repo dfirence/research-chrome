@@ -9,4 +9,4 @@ The following table covers the names of the extensions and their specific focus 
 |----------------------|----------------|------------------|
 | Browser Action | lab-1-hello-world | Basic Popup HTML    |
 |                | lab-2-hello-world | Custom Icon & Tooltip|
-|                | lab-3-hello-world | Custom Bad text & Color|
+|                | lab-3-hello-world | Custom Badge text & Color|
