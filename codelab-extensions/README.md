@@ -11,4 +11,5 @@ The following table covers the names of the extensions and their specific focus 
 |                | lab-2-hello-world | Custom Icon & Tooltip|
 |                | lab-3-hello-world | Custom Badge text & Color|
 |                | lab-4-hello-world | Chrome TABS API Query |
-|                | lab-5-hello-world | Native JS Event Handlers with Popup.js|
+|                | lab-5-hello-world | Native JS Click Event Handlers with Popup.js |
+|                | lab-6-hello-world | Native JS Mouse Event Handlers with Popup.js |
