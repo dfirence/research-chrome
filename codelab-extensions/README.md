@@ -13,3 +13,4 @@ The following table covers the names of the extensions and their specific focus 
 |                | lab-4-hello-world | Chrome TABS API Query |
 |                | lab-5-hello-world | Native JS Click Event Handlers with Popup.js |
 |                | lab-6-hello-world | Native JS Mouse Event Handlers with Popup.js |
+|                | lab-7-hello-world | Native JS AJAX Call to IPSTACK.COM |
