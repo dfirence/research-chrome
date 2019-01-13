@@ -1,5 +1,5 @@
 # Lab 7- Hello World Extension w/ AJAX Call to a REST API
-This is a custom extension from the ground up.  The extension takes an IPv4 address as input an creates a request via AJAX to ipstack.com.
+This is a custom extension from the ground up.  The extension takes an IPv4 address as input an creates a request via AJAX to `ipstack.com.`
 This is also intended to show how to parse a response from an AJAX Call in JSON Format.  Note, this should not be used in production.
 
 # Functionality
