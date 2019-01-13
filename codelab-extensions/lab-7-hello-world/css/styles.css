@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2c2c2c;
+}
+
+hr {
+    border: 1px solid #3CDEE1;
+}
+
+h4 {
+    color: #3CDEE1;
+}
+.cnt_header {
+    width: 200px;
+    height: 50px;
+}
+.cnt_body {
+    width: 200px;
+    height: 150px;
+}
+
+.cnt_footer {
+    width: 200px;
+    height: 100px;
+}
+
+.cnt_conn_status {
+    color: white;
+}
+#ip-search {
+    width: 120px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#search-ip {
+    border-radius: 5px;
+}
+
+#reset-form {
+    border-radius: 5px;
+}
+#results-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.criteria {
+    color: yellow;
+}
+
+.value {
+    color: white;
+}
+
+#trademark-brand {
+    font-size: 8px;
+    color: #c9c9c9;
+}

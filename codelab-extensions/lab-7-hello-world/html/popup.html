@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/styles.css">
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    </head>
+    <body id="body-html">
+        <!-- HEADER SECTION OF EXTENSION-->
+        <div class="cnt_header">
+            <h4>Header</h4>
+            <input id="ip-search" type="text">&nbsp;&nbsp;&nbsp;&nbsp;<button id="search-ip">Search</button>
+            <hr>
+        </div>
+        <!-- MIDDLE SECTION OF EXTENSION-->
+        <div class="cnt_body">
+            <h4>Body</h4>
+            <div class="cnt-results">
+                <table id="results-table">
+                    <tbody>
+                        <tr>
+                            <td class="criteria" id="ipv4">IPv4</td>
+                            <td class="value" id="ipv4_value">...</td>
+                        </tr>
+                        <tr>
+                            <td class="criteria" id="continent">Continent</td>
+                            <td class="value" id="continent_value">...</td>
+                        </tr>
+                        <tr>
+                            <td class="criteria" id="region">Region</td>
+                            <td class="value" id="region_value">...</td>
+                        </tr>
+                        <tr>
+                            <td class="criteria" id="city">City</td>
+                            <td class="value" id="city_value">...</td>
+                        </tr>
+                        <tr>
+                            <td class="criteria" id="latitude">Lat</td>
+                            <td class="value" id="latitude_value">...</td>
+                        </tr>
+                        <tr>
+                            <td class="criteria" id="longitude">Lon</td>
+                            <td class="value" id="longitude_value">...</td>
+                        </tr>                                            
+                    </tbody>
+                </table>
+            </div>
+            <hr>
+        </div>
+        <!-- FOOTER SECTION OF EXTENSION -->
+        <div class="cnt_footer">
+            <h4>Footer</h4>
+            <hr>
+            <button id="reset-form">Reset</button>
+            <div class="cnt_conn_status" align="right">
+                <span id="conn_status"></span>
+            </div>
+            <div class="trademark" align="right">
+                <span id="trademark-brand">TTP0, LLC.&nbsp;|&nbsp;&nbsp;&copy;&nbsp;2018</span>
+            </div>
+        </div>
+        <script src="../js/popup.js"></script>
+    </body>
+</html>
