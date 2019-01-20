@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "author": "dfirence@",
+    "name": "hello world",
+    "description": "hello world - lab 8",
+    "icons": {
+        "16": "icons/icon16.png"
+    },
+    "browser_action": {
+        "default_popup": "html/popup.html",
+        "default_title": "Lab-8 Hello World",
+        "default_icon": "icons/icon16.png"
+    }
+}
