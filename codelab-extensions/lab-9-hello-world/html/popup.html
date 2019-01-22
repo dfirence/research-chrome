@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/chartist.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <!--  USER PANEL -->
+        <div class="cnt">
+            <div class="parent">
+               <div class="child" id="user-logo" align="center">
+                    <img src="../img/skull-icon.png" alt="skull">
+               </div>
+            </div>
+            <!-- USER DETAILS PANEL -->
+            <div class="parent" id="user-details">
+                <div class="child">
+                    <div class="username">jdoe@</div>
+                    <div class="company">John Doe | ACME. LLC.</div>
+                </div>
+            </div>
+            <!-- USER CONTACT BUTTONS PANEL-->
+            <div class="parent" id="spinner"></div>
+        </div>
+        <br />
+        <!-- OVERVIEW TABLE PANEL-->
+        <div class="cnt" id="overview-data">
+            <div class="parent" id="overview-panel">
+                <table id="overview-table">
+                    <tbody>
+                        <tr>
+                            <th></th>
+                            <th id="column">AMER</th>
+                            <th id="column">APAC</th>
+                            <th id="column">EMEA</th>
+                            <th id="column">Total</th>
+                        </tr>
+                        <tr id="temps">
+                            <td id="header">CAT 0</td>
+                            <td class="values" id="amer_values">20</td>
+                            <td class="values" id="apac_values">35</td>
+                            <td class="values" id="emea_values">55</td>
+                            <td class="values" id="temps_total">110</td>
+                        </tr>
+                        <tr id="vendors">
+                            <td id="header">CAT 1</td>
+                            <td class="values" id="amer_values">10</td>
+                            <td class="values" id="apac_values">25</td>
+                            <td class="values" id="emea_values">35</td>
+                            <td class="values" id="vendors_total">70</td>
+                        </tr>
+                        <tr id="contractors">
+                            <td id="header">CAT 2</td>
+                            <td class="values" id="amer_values">33</td>
+                            <td class="values" id="apac_values">22</td>
+                            <td class="values" id="emea_values">11</td>
+                            <td class="values" id="contractors_total">66</td>
+                        </tr>                                           
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <!-- CHARTS PANEL-->
+        <div class="cnt" id="chart-data">
+            <div class="ct-chart"></div>
+        </div>
+        <button id="test">TEST</button>
+        <button id="show-chart">Show Chart</button>
+        <!-- Scripts & Logic-->
+        <script src="../js/libs/chartist.min.js"></script>
+        <script src="../js/libs/jquery-3.3.1.min.js"></script>
+        <script src="../js/popup.js"></script>
+    </body>
+</html>
